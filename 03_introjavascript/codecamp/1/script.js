@@ -6,7 +6,7 @@ function getUsername() {
     var  user = prompt("Veuillez rentrez votre nom:", "");
 
     // la fonction se termine en retournant le nom récupéré par la boite de dialogue
-    return user
+    return user;
 }
 
 
@@ -53,3 +53,5 @@ function showChallenge(liste) {
 loadChallenges();
 
 });
+
+end;
